@@ -911,5 +911,10 @@
   "add_exchange2016": "Connect Exchange 2016 Server",
   "specific_issue": "Have a specific issue",
   "browse_our_docs": "browse our docs",
-  "attendee_name": "Attendee's name"
+  "attendee_name": "Attendee's name",
+  "vicino_register": "Register",
+  "vicino_ical_description": "Register on vicinocard.com to get access to your calendar",
+  "vicino_ical_name": "vicino•ical",
+  "vicino_ical_button_register": "Register now with a business account",
+  "vicino_ical_button_description": "For use vicinoical you need to have a business account"
 }

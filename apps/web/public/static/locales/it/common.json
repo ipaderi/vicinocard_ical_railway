@@ -902,5 +902,10 @@
   "web_conference": "Conferenza Web",
   "requires_confirmation": "Richiede conferma",
   "add_exchange2013": "Connetti al server Exchange 2013",
-  "add_exchange2016": "Connetti al server Exchange 2016"
+  "add_exchange2016": "Connetti al server Exchange 2016",
+  "vicino_register": "Registrati",
+  "vicino_ical_description": "Registrati ora su vicino•ical per creare il tuo calendario.",
+  "vicino_ical_name": "vicino•ical",
+  "vicino_ical_button_register": "Registrati ora con un account vicino•business",
+  "vicino_ical_button_description": "Per utilizzare il calendario, devi registrarti con un account vicino•business."
 }

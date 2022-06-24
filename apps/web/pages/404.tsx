@@ -45,7 +45,7 @@ export default function Custom404() {
   return (
     <>
       <HeadSeo
-        title={isSignup ? "vicino•ical" : t("404_page_not_found")}
+        title={isSignup ? t("vicino_ical_name") : t("404_page_not_found")}
         description={t("404_page_not_found")}
         nextSeoProps={{
           nofollow: true,
@@ -60,9 +60,9 @@ export default function Custom404() {
                 <p className="text-sm font-semibold uppercase tracking-wide text-black">
                 </p>
                 <h1 className="font-cal mt-2 text-3xl font-extrabold text-gray-900">
-                  Registrazione
+                  {t("vicino_ical_name")}
                 </h1>
-                <p className="mt-4"></p>
+                <p className="mt-4">{t("vicino_ical_description")}</p>
               </div>
               <div className="mt-12">
                 <h2 className="text-sm font-semibold uppercase tracking-wide text-gray-500">
@@ -82,11 +82,11 @@ export default function Custom404() {
                           <span className="rounded-sm focus-within:ring-2 focus-within:ring-gray-500 focus-within:ring-offset-2">
                             <span className="focus:outline-none">
                               <span className="absolute inset-0" aria-hidden="true" />
-                              Registra ora un account business
+                              {t("vicino_ical_button_register")}
                             </span>
                           </span>
                         </h3>
-                        <p className="text-base text-gray-500">Per utilizzare vicino•ical bisogna avere un account vicino•business. </p>
+                        <p className="text-base text-gray-500">{t("vicino_ical_button_description")} </p>
                       </div>
                       <div className="flex-shrink-0 self-center">
                         <ChevronRightIcon className="h-5 w-5 text-gray-400" aria-hidden="true" />
