@@ -438,7 +438,7 @@ const BookingPage = ({
                 eventTypeTitle: eventType.title,
                 profileName: profile.name,
               })}{" "}
-          | vicino•ical 
+          | vicino•ical
         </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>

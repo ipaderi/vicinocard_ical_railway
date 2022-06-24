@@ -6,7 +6,7 @@ export default function Error500() {
   return (
     <div className="flex h-screen">
       <Head>
-        <title>Something unexpected occurred | vicino•ical </title>
+        <title>Something unexpected occurred | vicino•ical</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="m-auto text-center">

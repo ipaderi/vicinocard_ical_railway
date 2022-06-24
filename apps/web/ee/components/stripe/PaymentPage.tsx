@@ -59,7 +59,7 @@ const PaymentPage: FC<PaymentPageProps> = (props) => {
       <Theme />
       <Head>
         <title>
-          {t("payment")} | {eventName} | vicino•ical 
+          {t("payment")} | {eventName} | vicino•ical
         </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
