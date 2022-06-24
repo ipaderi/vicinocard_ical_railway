@@ -66,7 +66,6 @@ export default function Custom404() {
               </div>
               <div className="mt-12">
                 <h2 className="text-sm font-semibold uppercase tracking-wide text-gray-500">
-                  {/* {t("next_steps")} */}
                 </h2>
                 <ul role="list" className="mt-4">
                   <li className="border-2 border-green-500 px-4 py-2">
