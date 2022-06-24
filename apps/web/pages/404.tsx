@@ -57,16 +57,12 @@ export default function Custom404() {
           {isSignup && process.env.NEXT_PUBLIC_WEBAPP_URL !== "https://app.cal.com" ? (
             <div>
               <div>
-                <p className="text-sm font-semibold uppercase tracking-wide text-black">
-                </p>
                 <h1 className="font-cal mt-2 text-3xl font-extrabold text-gray-900">
                   {t("vicino_ical_name")}
                 </h1>
                 <p className="mt-4">{t("vicino_ical_description")}</p>
               </div>
               <div className="mt-12">
-                <h2 className="text-sm font-semibold uppercase tracking-wide text-gray-500">
-                </h2>
                 <ul role="list" className="mt-4">
                   <li className="border-2 border-green-500 px-4 py-2">
                     <a
