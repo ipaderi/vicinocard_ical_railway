@@ -74,10 +74,13 @@ async function main() {
     });
   }
   if (process.env.ZOOM_CLIENT_ID && process.env.ZOOM_CLIENT_SECRET) {
+    console.info("📲 Adding Zoom credentials to DB");
+    console.info(".env data for Zoom:", process.env.ZOOM_CLIENT_ID, process.env.ZOOM_CLIENT_SECRET);
     await createApp("zoom", "zoomvideo", ["video"], "zoom_video", {
       client_id: process.env.ZOOM_CLIENT_ID,
       client_secret: process.env.ZOOM_CLIENT_SECRET,
     });
+    console.info("📲 Added Zoom credentials to DB and also .env file readed");
   }
   await createApp("jitsi", "jitsivideo", ["video"], "jitsi_video");
   // Other apps
