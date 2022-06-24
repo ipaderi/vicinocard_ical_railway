@@ -39,7 +39,7 @@ const themeConfig = {
   nextLinks: true,
   footer: true,
   footerEditLink: "Edit this page on GitHub",
-  footerText: <>© {new Date().getFullYear()} Cal.com, Inc. All rights reserved.</>,
+  footerText: <>© {new Date().getFullYear()} vicino•ical. All rights reserved.</>,
 };
 
 export default themeConfig;
