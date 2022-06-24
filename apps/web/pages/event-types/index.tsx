@@ -538,7 +538,7 @@ const EventTypesPage = () => {
   return (
     <div>
       <Head>
-        <title>Home | Cal.com</title>
+        <title>Home | vicino•ical </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Shell
