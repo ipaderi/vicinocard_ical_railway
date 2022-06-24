@@ -1,8 +1,8 @@
 const themeConfig = {
   github: "https://github.com/calcom/cal.com",
   docsRepositoryBase: "https://github.com/calcom/cal.com/blob/main/apps/docs/pages",
-  titleSuffix: " | Cal.com",
-  logo: <h4 className="m-0">Cal.com</h4>,
+  titleSuffix: " | vicino•ical",
+  logo: <h4 className="m-0">vicino•ical</h4>,
   head: (
     <>
       <meta name="msapplication-TileColor" content="#ffffff" />
@@ -18,12 +18,12 @@ const themeConfig = {
         content="Explore advice and explanations for all of our features, and discover new tips and tricks to get the most out of your subscription."
       />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="https://cal.com/og-image.png" />
-      <meta name="twitter:site:domain" content="docs.cal.com" />
-      <meta name="twitter:url" content="https://docs.cal.com" />
-      <meta name="og:title" content="Cal.com Documentation" />
-      <meta name="og:image" content="https://cal.com/og-image.png" />
-      <meta name="apple-mobile-web-app-title" content="Cal.com Docs" />
+      <meta name="twitter:image" content="https://ical.vicinocard.com/og-image.png" />
+      <meta name="twitter:site:domain" content="ical.vicinocard.com" />
+      <meta name="twitter:url" content="https://ical.vicinocard.com" />
+      <meta name="og:title" content="vicino•ical Documentation" />
+      <meta name="og:image" content="https://ical.vicinocard.com/og-image.png" />
+      <meta name="apple-mobile-web-app-title" content="ical.vicinocard.comDocs" />
 
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
