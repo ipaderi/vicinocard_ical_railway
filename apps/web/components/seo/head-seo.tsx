@@ -66,7 +66,7 @@ const buildSeoMeta = (pageProps: {
 const constructImage = (name: string, description: string, username: string): string => {
   return (
     encodeURIComponent("Meet **" + name + "** <br>" + description).replace(/'/g, "%27") +
-    ".png?md=1&images=https%3A%2F%2Fcal.com%2Flogo-white.svg&images=" +
+    ".png?md=1&images=https%3A%2F%2Fical.vicinocard.com%2Fvicino-ical-logo-black.svg&images=" +
     (process.env.NEXT_PUBLIC_WEBSITE_URL || process.env.NEXT_PUBLIC_WEBAPP_URL) +
     "/" +
     username +
