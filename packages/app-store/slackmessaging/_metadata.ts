@@ -8,7 +8,7 @@ export const metadata = {
   category: "messaging",
   imageSrc: "/apps/slack.svg",
   logo: "/apps/slack.svg",
-  publisher: "Cal.com",
+  publisher: "vicino•ical",
   rating: 5,
   reviews: 69,
   slug: "slack",

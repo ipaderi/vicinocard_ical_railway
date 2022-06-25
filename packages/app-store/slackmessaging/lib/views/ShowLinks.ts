@@ -17,7 +17,7 @@ const ShowLinks = (eventLinks: IEventTypes[] | undefined, username: string) => {
   }
   return Message()
     .blocks(
-      Blocks.Section({ text: `${username}'s Cal.com Links` }),
+      Blocks.Section({ text: `${username}'s vicino•ical Links` }),
       Blocks.Divider(),
       eventLinks.map((links) =>
         Blocks.Section({

@@ -10,7 +10,7 @@ export const metadata = {
   imageSrc: "/api/app-store/office365video/icon.svg",
   variant: "conferencing",
   logo: "/api/app-store/office365video/icon.svg",
-  publisher: "Cal.com",
+  publisher: "vicino•ical",
   url: "https://www.microsoft.com/en-ca/microsoft-teams/group-chat-software",
   verified: true,
   rating: 4.3, // TODO: placeholder for now, pull this from TrustPilot or G2

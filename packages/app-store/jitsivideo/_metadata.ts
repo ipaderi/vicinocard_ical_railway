@@ -11,7 +11,7 @@ export const metadata = {
   imageSrc: "/api/app-store/jitsivideo/icon.svg",
   variant: "conferencing",
   logo: "/api/app-store/jitsivideo/icon.svg",
-  publisher: "Cal.com",
+  publisher: "vicino•ical",
   url: "https://jitsi.org/",
   verified: true,
   rating: 0, // TODO: placeholder for now, pull this from TrustPilot or G2
