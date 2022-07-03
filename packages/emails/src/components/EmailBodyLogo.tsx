@@ -8,7 +8,7 @@ const CommentIE = ({ html = "" }) => <RawHtml html={`<!--[if mso | IE]>${html}<!
 const EmailBodyLogo = () => {
   const image = IS_PRODUCTION
     ? BASE_URL + "/emails/CalLogo@2x.png"
-    : "https://ical.vicinocard.com/emails/CalLogo@2x.png";
+    : "https://cdn.vicinocard.com/svg/vicinocard-long-black.svg";
 
   return (
     <>
