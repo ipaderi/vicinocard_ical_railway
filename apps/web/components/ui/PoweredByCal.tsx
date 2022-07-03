@@ -16,16 +16,16 @@ const PoweredByCal = () => {
             // eslint-disable-next-line @next/next/no-img-element
             <img
               className="relative -mt-px inline h-[10px] w-auto dark:hidden"
-              src="/cal-logo-word.svg"
-              alt="Cal.com Logo"
+              src="//cdn.vicinocard.com/svg/vicinocard-long-white.svg"
+              alt="vicino•ical"
             />
           }
           {
             // eslint-disable-next-line @next/next/no-img-element
             <img
               className="relativ -mt-px hidden h-[10px] w-auto dark:inline"
-              src="/cal-logo-word-dark.svg"
-              alt="Cal.com Logo"
+              src="//cdn.vicinocard.com/svg/vicinocard-long-black.svg"
+              alt="vicino•ical"
             />
           }
         </a>
